@@ -53,7 +53,7 @@ export default function Header() {
           <ul className="flex gap-8">
             {menuItems.map((item, index) => (
               <li key={index}>
-                <a href={item.link}> {item.name} </a>
+                <a href={item.link} target="_blank"> {item.name} </a>
               </li>
             ))}
           </ul>

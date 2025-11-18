@@ -26,3 +26,10 @@ export interface CardProps {
   content: string;
   icon: React.ReactNode;
 }
+
+export interface Service {
+  id: number;
+  title: string;
+  description: string;
+  link: string;
+}
