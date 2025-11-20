@@ -1,5 +1,4 @@
-import React from "react";
-import TitleSection from "../components/title";
+ import TitleSection from "../components/title";
 import type { CardProps, TitleSectionProps } from "../lib/types";
 import Card from "../components/card";
 import { FiLayers } from "react-icons/fi";

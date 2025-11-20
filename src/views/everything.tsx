@@ -1,5 +1,4 @@
-import React from "react";
-import TitleSection from "../components/title";
+ import TitleSection from "../components/title";
 import Button from "../components/button";
 
 export default function Everything() {

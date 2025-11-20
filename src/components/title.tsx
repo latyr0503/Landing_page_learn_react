@@ -1,4 +1,3 @@
-import React from "react";
 import type { TitleSectionProps } from "../lib/types";
 
 export default function TitleSection({

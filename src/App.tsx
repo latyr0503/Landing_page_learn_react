@@ -1,4 +1,4 @@
-import { BrowserRouter, Link, NavLink, Route, Routes } from "react-router-dom";
+import { BrowserRouter, NavLink, Route, Routes } from "react-router-dom";
 import HomePage from "./pages/home";
 import AboutPage from "./pages/about";
 import ContactPage from "./pages/contact";
@@ -11,10 +11,7 @@ export default function App() {
       <div className="bg-purple-700 p-5 text-white flex items-center justify-between">
         <h1 className="text-3xl font-bold">Mon Site</h1>
         <nav className=" space-x-5">
-          <NavLink
-            title="page d'acceuil"
-            to="/"
-          >
+          <NavLink title="page d'acceuil" to="/">
             Home
           </NavLink>
           <NavLink

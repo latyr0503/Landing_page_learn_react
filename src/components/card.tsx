@@ -1,5 +1,4 @@
-import React from "react";
-import type { CardProps } from "../lib/types";
+ import type { CardProps } from "../lib/types";
 
 export default function Card({ title, content, icon }: CardProps) {
   return (
