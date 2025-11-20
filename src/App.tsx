@@ -12,7 +12,6 @@ export default function App() {
         <h1 className="text-3xl font-bold">Mon Site</h1>
         <nav className=" space-x-5">
           <NavLink
-            className="active:text-red-500 "
             title="page d'acceuil"
             to="/"
           >

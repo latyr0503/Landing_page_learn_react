@@ -8,6 +8,18 @@ export default function DetailServices() {
         assumenda consequuntur minus quam. Distinctio, tempora. Amet porro est
         rerum vero.
       </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste possimus
+        nobis architecto! Eaque quas vero sapiente aspernatur adipisci autem
+        assumenda consequuntur minus quam. Distinctio, tempora. Amet porro est
+        rerum vero.
+      </p>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste possimus
+        nobis architecto! Eaque quas vero sapiente aspernatur adipisci autem
+        assumenda consequuntur minus quam. Distinctio, tempora. Amet porro est
+        rerum vero.
+      </p>
     </div>
   );
 }
