@@ -1,13 +1,17 @@
- 
+import Everything from "../views/everything";
+import HeroSection from "../views/hero-section";
+import Partenaires from "../views/partenaires";
+import PremierSection from "../views/premier-section";
+import What from "../views/what";
+
 export default function HomePage() {
   return (
     <div>
-      <h1 className="text-4xl font-bold text-purple-800">home</h1>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea aperiam
-        deserunt, quisquam recusandae consequuntur sit totam eveniet eum porro
-        non natus dolorem ratione dolor reiciendis nemo alias quam atque magnam?
-      </p>
+      <HeroSection/>
+      <Partenaires />
+      <PremierSection />
+      <What />
+      <Everything />
     </div>
   );
 }

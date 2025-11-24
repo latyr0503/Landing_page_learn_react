@@ -23,10 +23,11 @@ const services: Service[] = [
 
 export default function ServicesPage() {
   return (
-    <div>
+    <div className="max-w-xl mx-auto py-12 space-y-6">
       <h1 className="text-4xl font-bold text-purple-800">Services Page</h1>
+
       {services.map((services) => (
-        <div key={services.id} className="mb-6">
+        <div key={services.id} className="mb-6 bg-amber-500">
           <h2 className="text-2xl font-semibold text-purple-600">
             {services.title}
           </h2>
@@ -43,4 +44,3 @@ export default function ServicesPage() {
     </div>
   );
 }
-

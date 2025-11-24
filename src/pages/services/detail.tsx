@@ -1,7 +1,11 @@
+import { useParams } from "react-router-dom";
+
 export default function DetailServices() {
+  const { service } = useParams();
+
   return (
-    <div>
-      <h2>Detail Services : Service One</h2>
+    <div className="container py-12 space-y-6">
+      <h2 className="text-3xl font-semibold capitalize">Detail Services : {service}</h2>
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste possimus
         nobis architecto! Eaque quas vero sapiente aspernatur adipisci autem
