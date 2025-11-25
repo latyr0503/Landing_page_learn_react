@@ -2,13 +2,16 @@ import { FaRegPlayCircle } from "react-icons/fa";
 import Button from "../components/button";
 
 export default function HeroSection() {
+  const email = localStorage.getItem("email");
+
   return (
     <div>
       <section className="flex bg-[#F0BE86] items-center justify-between lg:flex-row flex-col">
         <div className="lg:w-1/2 w-full flex-col gap-6  flex items-start  p-16">
-          <h1 className="md:text-7xl text-3xl font-bold">
-            <span className="text-purple-700">Studying</span> Online is now much
-            easier
+          <h1 className="md:text-4xl text-3xl font-bold">
+            {email ? `Welcome back, ${email}` : "Welcome to Skill"}
+            {/* <span className="text-purple-700">Studying</span> Online is now much
+            easier,  */}
           </h1>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
@@ -17,7 +20,12 @@ export default function HeroSection() {
             dolorem nemo? Saepe!
           </p>
           <div className="flex items-center gap-10">
-            <Button className="bg-purple-700 text-white" text="Se connecter" />
+            <a href="/login">
+              <Button
+                className="bg-purple-700 text-white"
+                text="Se connecter"
+              />
+            </a>{" "}
             <div className="flex items-center">
               <FaRegPlayCircle className="text-5xl" />
               <Button

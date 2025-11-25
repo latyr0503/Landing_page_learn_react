@@ -33,11 +33,20 @@ export default function Header() {
                 </NavLink>
               ))}
             </ul>
-            <Button className="bg-purple-700 text-white" text="Se connecter" />
-            <Button
-              className="border-2 bg-transparent text-purple-700 border-purple-700 "
-              text="Se connecter"
-            />
+            <a href="/login">
+              <Button
+                className="bg-purple-700 text-white"
+                text="Se connecter"
+              />
+            </a>
+            <a
+              href="/sign_up"
+            >
+              <Button
+                className="border-2 bg-transparent text-purple-700 border-purple-700 "
+                text="S'inscrire"
+              />
+            </a>
           </nav>
           <MdMenuOpen className="text-7xl lg:hidden block" />
         </div>

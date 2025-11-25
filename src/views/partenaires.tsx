@@ -17,7 +17,7 @@ export default function Partenaires() {
           <img
             key={index}
             src={logo.src}
-            className="rounded-xl  w-full h-full object-cover"
+            className="rounded-xl w-full h-full object-cover"
             alt={logo.alt}
           />
         ))}

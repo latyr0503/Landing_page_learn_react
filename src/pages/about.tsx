@@ -1,13 +1,17 @@
 import { useState } from "react";
 import { sculptureList } from "../lib/data";
+import Header from "../views/header";
 
 export default function AboutPage() {
   return (
-    <div className="container py-12 space-y-8">
-      <h1 className="text-4xl font-bold text-purple-800">A propos</h1>
+    <>
+      <Header />
+      <div className="container py-12 space-y-8">
+        <h1 className="text-4xl font-bold text-purple-800">A propos</h1>
 
-      <Temoignages />
-    </div>
+        <Temoignages />
+      </div>
+    </>
   );
 }
 
