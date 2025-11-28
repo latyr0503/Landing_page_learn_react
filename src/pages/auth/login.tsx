@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 
 export default function LoginPage() {
-  const [email, setEmail] = useState("");
+  const [email, setEmail] = useState("test@gmail.com");
   const [password, setPassword] = useState("");
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    localStorage.setItem("email", email);
-    localStorage.setItem("password", password);
+    console.log("email:", email);
+    console.log("password:", password);
 
     alert("Connexion réussie !");
-    window.location.href = "/";
+    window.location.href = "/dashboard";
   };
   return (
     <div className="bg-purple-600 flex items-center justify-center h-screen  w-full">

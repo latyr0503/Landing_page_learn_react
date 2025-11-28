@@ -6,6 +6,7 @@ import ServicesPage from "./pages/services/services";
 import DetailServices from "./pages/services/detail";
 import LoginPage from "./pages/auth/login";
 import SignUpPage from "./pages/auth/sign_up";
+import Pagedashboard from "./pages/dashboard/dashboard";
 export default function App() {
   return (
     <BrowserRouter>
@@ -25,7 +26,13 @@ export default function App() {
       <Routes>
         <Route path="/login" element={<LoginPage />} />
         <Route path="/sign_up" element={<SignUpPage />} />
-      </Routes>
+      </Routes>  
+
+      <Routes>
+        <Route path="/dashboard" element={<Pagedashboard />} />
+
+      </Routes>  
+
     </BrowserRouter>
   );
 }
